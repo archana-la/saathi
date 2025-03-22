@@ -1,42 +1,26 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.a
+{
+  width: 100px; 
+  height: 50px;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.b{
+  width: 100px;
+  height: 80px;
 }
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
+.c{
+  width: 100%;
 }
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.d{
+  background: #967B4F;
 }
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+.e{
+  background: #967B4F;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
+.g{
+  width: 400px;
+  height: 300px;
 }
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.h
+{
+  background: #967B4F ;
 }
