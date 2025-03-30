@@ -32,10 +32,10 @@ function Footer() {
     <section className='h'>
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 py-3 text-white">
+          <div className="col-lg-6 py-3  text-white">
           © 2022 Saathi. All rights reserved.
           </div>
-          <div className="col-lg-6"></div>
+          <div></div>
         </div>
       </div>
     </section>

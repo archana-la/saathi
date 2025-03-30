@@ -17,7 +17,7 @@ function page() {
                             <h2>About Us</h2>
                             <p>Saathi is a non-governmental organization established in 1992 to address the different forms of violence and discrimination faced by Nepali women and girls. It was the first organization that was instrumental in drawing significant national attention towards domestic violence in Nepal as an area requiring urgent attention and intervention to break the silence that impacts the lives of many marginalized women and girls. It has persistently continued its crusade for creating a safe and violence-free society where women and children can live with respect and dignity.
                             </p>
-                            <button className='bg-danger py-2 rounded'>Read More</button>
+                            <button className='bg-danger py-3 rounded'>Read More</button>
                         </div>
                         <div className="col-lg-6">
                             <iframe width="591" height="332" src="https://www.youtube.com/embed/C-oBS1BTBac" title="Saathi&#39;s 30th Anniversary glimpses" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

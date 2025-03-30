@@ -9,7 +9,7 @@ function page() {
                 </div>
             </section>
 
-            <section>
+            {/* <section>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8">
@@ -39,18 +39,57 @@ function page() {
                                 <tr className='border-bottom'>
                                     <td>Branch</td>
                                     <td></td>
-                                    <td>Kalimati, Kathmandu, Nepal</td> 
+                                    <td>Kalimati, Kathmandu, Nepal</td>
                                 </tr>
-                                  
+
                                 <tr className='border-bottom'>
                                     <td>SWIFT CODE	</td>
                                     <td></td>
-                                    <td>NIBLNPKT</td> 
+                                    <td>NIBLNPKT</td>
                                 </tr>
                             </table>
                         </div>
-                        <div className="col-lg-4">
-                            <h3 className='py-4'>Activities</h3>
+                       
+                    </div>
+                </div>
+            </section> */}
+ 
+          <section className='py-4'>
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-8">
+                        <h5 className="text-danger">Bank details for donation:</h5>
+                        <table className="table table-bordered">
+                            <tbody>
+                                <tr>
+                                    <th>Bank Name:</th>
+                                    <td>Nepal Investment Bank Limited</td>
+                                </tr>
+                                <tr>
+                                    <th>Account Name:</th>
+                                    <td>SAATHI - 2</td>
+                                </tr>
+                                <tr>
+                                    <th>Account Number:</th>
+                                    <td>01701030034159</td>
+                                </tr>
+                                <tr>
+                                    <th>Account Type:</th>
+                                    <td>Current Account</td>
+                                </tr>
+                                <tr>
+                                    <th>Branch:</th>
+                                    <td>Kalimati, Kathmandu, Nepal</td>
+                                </tr>
+                                <tr>
+                                    <th>SWIFT CODE:</th>
+                                    <td>NIBLNPKT</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        </div>
+                     <div className="col-lg-4">
+                            <h3>Activities</h3>
                             <div className='d-flex'>
                                 <div>
                                     <img className='b' src="https://saathi.org.np/wp-content/uploads/2025/02/IMG-20250217-WA0006-533x400.jpg" alt="" />
@@ -87,10 +126,9 @@ function page() {
                                     <p>January 10, 2025</p>
                                 </div>
                             </div>
-
                         </div>
-                    </div>
                 </div>
+            </div>
             </section>
 
         </>

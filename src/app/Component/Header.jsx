@@ -11,30 +11,34 @@ import React from 'react'
 function Header() {
     return (
         <>
-        <section className='bg-dark text-white py-3'>
-        <div className="container">
-            <div className="row">
-                <div className="col-lg-6">
-                    <a> <FaPhone /> +977-1-5191103</a>
-                   <a> <FaMapMarkerAlt />
-                   Nakkhu, Lalitpur</a>
+            <section className='bg-dark text-white py-3'>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-6">
+                            <a> <FaPhone /> +977-1-5191103</a>
+                            <a> <FaMapMarkerAlt />
+                                Nakkhu, Lalitpur</a>
+                        </div>
+                        <div className="col-lg-6 text-lg-end">
+                            <a className='p-3 text-white'> <FaFacebook /></a>
+                            <a> <FaYoutube /> </a>
+                            <a className='p-3 text-white'> <FaInstagram /></a>
+                            <a className='p-3 text-white'><FaTwitter /></a>
+                        </div>
+                    </div>
                 </div>
-                <div className="col-lg-6 text-end">
-                      <a> <FaFacebook /></a> 
-                       <a> <FaYoutube /> </a>    
-                  <a> <FaInstagram /></a> 
-                   <a><FaTwitter /></a> 
-                </div>
-            </div>
-            </div>
-        </section>
-        
+            </section>
+
             <nav className="navbar navbar-expand-lg ">
                 <div className="container ">
                     <a className="navbar-brand" href="#">
                         <img className='a' src="https://saathi.org.np/wp-content/uploads/2023/08/cropped-saathi-logo1.jpg" alt="" />
                     </a>
-                    <div className="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon" />
+                    </button>
+
+                    <div className="collapse navbar-collapse d-flex d-none justify-content-end" id="navbarNav">
                         <ul className="navbar-nav ">
                             <li className="nav-item">
                                 <Link className="nav-link active" aria-current="page" href="/"> HOME</Link>

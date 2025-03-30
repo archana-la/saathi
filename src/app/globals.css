@@ -17,8 +17,9 @@
   background: #967B4F;
 }
 .g{
-  width: 400px;
+ max-width: 600px;
   height: 300px;
+  width: 100%;
 }
 .h
 {
